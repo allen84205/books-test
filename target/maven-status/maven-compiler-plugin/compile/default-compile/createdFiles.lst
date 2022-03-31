@@ -1,0 +1,12 @@
+com\books\test\Application.class
+com\books\test\controller\DockerController.class
+com\books\test\service\impl\BooksServiceImpl.class
+com\books\test\config\RestTemplateConfig.class
+com\books\test\util\DateUtils.class
+com\books\test\config\OpenApiConfig.class
+com\books\test\service\BooksService.class
+com\books\test\util\DateUtils$DateFormat.class
+com\books\test\request\BooksReq.class
+com\books\test\repository\BooksRepository.class
+com\books\test\entity\BooksEntity.class
+com\books\test\controller\BooksController.class

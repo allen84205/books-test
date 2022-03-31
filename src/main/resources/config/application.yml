@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: books-test
+  profiles:
+    active: dev
+  transaction:
+    rollback-on-commit-failure: true
+
+server:
+  port: 8085
+  jetty:
+    connection-idle-timeout: 60000
+  servlet:
+    session:
+      timeout: 1800s
+      
+logging:
+  file:
+    path: logs
+  level:
+    '[org.springframework.boot.autoconfigure]': ERROR
